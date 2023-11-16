@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salvar Login</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 img {
+            margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #d33; /* Cor vermelha para os rótulos */
+        }
+
+        input[type="text"], input[type="password"], select {
+            width: 300px;
+            padding: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #d33; /* Cor vermelha para o botão */
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .password-container {
+            display: flex;
+            align-items: center;
+            width: 300px; /* Largura total da combinação input + botão */
+        }
+
+        .password-container input[type="password"] {
+            flex: 0 0 90%; /* Ocupa 90% do espaço */
+        }
+
+        .password-container button.toggle-password {
+            flex: 0 0 10%; /* Ocupa 10% do espaço */
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            text-align: center;
+        }
+
+        .toggle-password img {
+            height: 15px; /* Altura do ícone */
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src="icons/icon48.png" alt="Ícone VPN">FAST LOGIN VPN</h1>
+    <div>
+        <label for="username">Usuário:</label>
+        <input type="text" id="username">
+    </div>
+    <div>
+        <label for="password">Senha:</label>
+        <div class="password-container">
+            <input type="password" id="password">
+            <button type="button" id="togglePassword" class="toggle-password">
+                <img src="icons/view.png" alt="Mostrar senha"> <!-- Ícone inicial -->
+            </button>
+        </div>
+    </div>
+    <div>
+        <label for="input_3">Domínio:</label>
+        <select name="domain" id="input_3" class="credentials_input_select">
+            <option value="jv01">JV01</option>
+            <option value="sp01">SP01</option>
+            <option value="bh01">BH01</option>
+            <option value="rec01">REC01</option>
+            <option value="rjo01">RJO01</option>
+            <option value="ssa01">SSA01</option>
+            <option value="df01">DF01</option>
+            <option value="poa01">POA01</option>
+            <option value="mex01">MEX01</option>
+            <option value="arg01">ARG01</option>
+        </select>
+    </div>
+    <div>
+        <label for="hostPermissions">Host:</label>
+        <select id="hostPermissions" class="credentials_input_select">
+            <!-- As opções serão carregadas via JavaScript -->
+        </select>
+    </div>
+    <button id="save">Logar</button>
+    
+    <!-- Não esqueça de incluir seu script JavaScript -->
+    <script src="js/popup.js"></script>
+</body>
+</html>
