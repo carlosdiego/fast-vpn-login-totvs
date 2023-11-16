@@ -1,7 +1,7 @@
 # Fast Login VPN TOTVS - Extensão para Chrome
 
 ## Visão Geral
-**Fast Login VPN TOTVS** é uma extensão para Chrome projetada para oferecer aos usuários serviços seguros e rápidos de VPN. Ideal para profissionais que buscam uma solução confiável e fácil de usar para acesso remoto seguro e proteção de dados online.
+**Fast Login VPN TOTVS** é uma extensão para Chrome projetada para oferecer aos usuários TOTVS serviços seguros e rápidos de acesso a VPN.
 
 ![Imagem da Extensão Fast Login VPN TOTVS](images/fast-vpn-login-totvs.png)
 
@@ -28,10 +28,10 @@
 - Utiliza criptografia de ponta para garantir a segurança dos dados.
 
 ## Suporte
-- Para suporte, entre em contato através de [email de suporte] ou visite nosso [website de suporte].
+- Para suporte, entre em contato através de [cdladiego@gmail.com].
 
 ## Contribuindo
-- Interessados em contribuir podem verificar nossa [página de contribuições no GitHub].
+- Interessados em contribuir podem verificar nossa página de contribuições no GitHub.
 
 ## Licença
 - Esta extensão é distribuída sob a licença Apache License 2.0.
